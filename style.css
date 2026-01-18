@@ -98,3 +98,27 @@
         font-size: 14px;
     }
 }
+
+.products-items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.products-items-container h1.products {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+}
+
+.items-number {
+    background-color: rgb(245, 74, 11);
+    color: #222;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px
+}
