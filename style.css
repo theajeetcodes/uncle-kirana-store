@@ -120,5 +120,97 @@
     padding: 5px 12px;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 14px
+    font-size: 14px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.product-card {
+    width: 180px;
+    background-color: #f3fac9;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-category {
+    display: inline-block;
+    background-color:#e0e0e0;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    align-self: flex-start;
+    box-shadow: inset 0 1px 2px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.2);
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.hindi-name {
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(215, 60, 10);
+    
+}
+
+.button {
+    background-color: rgb(245, 74, 11);
+    color: #fff;
+    border: none;
+    border-radius: 6px;padding: 4px 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e85c00;
+}
+
+@media (max-width: 600px) {
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
