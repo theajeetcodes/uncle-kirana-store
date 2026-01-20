@@ -211,7 +211,12 @@
 
 @media (max-width: 600px) {
     .products-container {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product-card {
+        width: 48%;
     }
 }
