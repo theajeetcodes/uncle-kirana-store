@@ -225,3 +225,103 @@
 * {
     box-sizing: border-box;
 }
+
+.footer {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-brand {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.store-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #e85c00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+
+.store-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+}
+
+.store-name .name {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.footer-para {
+    color: #bbb;
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+
+.contact {
+    color: #fff;
+}
+
+.call-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+}
+
+.call-contact img {
+    width: 18px;
+    height: 18px;
+}
+
+.last-step {
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+}
+
+.contact-head {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .footer-top {
+        flex-direction: column;   /* icon upar, text niche */
+        align-items: flex-start;
+    }
+
+    .store-icon {
+        margin-bottom: 8px;
+    }
+
+    .footer h2 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
