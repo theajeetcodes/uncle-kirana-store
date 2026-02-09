@@ -47,3 +47,7 @@ body {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.product-info {
+    flex: 1;
+}
