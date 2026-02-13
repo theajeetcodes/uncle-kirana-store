@@ -68,3 +68,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.price {
+    color: #e85c00;
+    font-weight: bold;
+}
