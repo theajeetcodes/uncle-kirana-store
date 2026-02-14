@@ -73,3 +73,7 @@ body {
     color: #e85c00;
     font-weight: bold;
 }
+
+.cart-btn {
+    background: #e85c00;
+}
