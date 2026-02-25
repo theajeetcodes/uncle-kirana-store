@@ -17,5 +17,11 @@ const ProductsData = {
             price: 10,
             img: "images/takatak.jpg"
         },
-    ]
+        {
+            name: "Balaji Chips",
+            desc: "Classic Indian chips",
+            price: 20,
+            img:"images/balaji.jpg"
+        }
+    ],
 }
