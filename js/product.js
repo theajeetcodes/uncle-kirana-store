@@ -24,4 +24,13 @@ const ProductsData = {
             img:"images/balaji.jpg"
         }
     ],
+
+    grocery: [
+        {
+            name: "Rice",
+            desc: "Premium quality rice",
+            price: 250,
+            img: "image/rice.jpg"
+        },
+    ]
 }
