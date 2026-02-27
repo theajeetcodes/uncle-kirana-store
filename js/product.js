@@ -32,5 +32,11 @@ const ProductsData = {
             price: 250,
             img: "image/rice.jpg"
         },
-    ]
+        {
+            name: "Dal",
+            desc: "Healthy protein dal",
+            price: 180,
+            img: "images/daal.jpg"
+        }
+    ],
 }
