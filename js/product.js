@@ -39,4 +39,13 @@ const ProductsData = {
             img: "images/daal.jpg"
         }
     ],
+
+    personal: [
+        {
+            name: "Soap",
+            desc: "Refreshing bath soap",
+            price: 14,
+            img: "images/soap.jpg"
+        },
+    ]
 }
