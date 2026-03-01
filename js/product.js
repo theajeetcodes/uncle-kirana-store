@@ -47,5 +47,11 @@ const ProductsData = {
             price: 14,
             img: "images/soap.jpg"
         },
+        {
+            name: "Shampoo",
+            desc: "Smooth & shiny hair",
+            price: 99,
+            img: "images/shampoo.jpg"
+        }
     ]
-}
+};
