@@ -55,3 +55,6 @@ const ProductsData = {
         }
     ]
 };
+
+const list = document.getElementById("product-list");
+const products = ProductsData[category] || [];
