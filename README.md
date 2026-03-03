@@ -1,11 +1,12 @@
 # 🛒 Uncle Kirana Store
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Status](https://img.shields.io/badge/status-frontend%20phase%20completed-blue)
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
 
-A clean and responsive **frontend grocery store website** built using **HTML and CSS**.  
+A clean and responsive **frontend grocery store website** built using **HTML**, **CSS**, and **JavaScript**, with plans to integrate backend functionality in the future.
 This project focuses on layout, UI clarity, and scalability for future JavaScript features.
 
 ---
@@ -14,7 +15,7 @@ This project focuses on layout, UI clarity, and scalability for future JavaScrip
 
 ![Project Preview](images/preview.png)
 
-> Current UI preview showing header and welcome section.
+> Current UI preview showing header, welcome section, and products.
 
 ---
 
@@ -49,10 +50,16 @@ uncle-kirana-store/
 |-- index.html
 |-- style.css
 |-- script.js
+|-- product.html
+|-- product.css
+|-- product.js
 |
 |-- images/
 | |-- icon.png
 | |-- preview.png
+| |-- balaji.jpg
+| |-- kurkure1.jpg
+| |-- etc 
 ```
 
 ---
@@ -81,19 +88,28 @@ uncle-kirana-store/
 
 ## 🚀 Live Demo
 
-🔗 _Coming soon (will be added after project completion)_
+🔗 https://theajeetcodes.github.io/uncle-kirana-store/
+
+---
+
+## 📂 Source Code
+
+🔗 https://github.com/theajeetcodes/uncle-kirana-store
 
 ---
 
 ## 👨‍💻 Author
 
 **Ajeet Yadav**  
-Frontend Developer (Learning & Building Projects)
+Frontend Developer | Building Scalable UI Projects
+Focused on clean UI, responsive design, and scalable frontend architecture.
 
 ---
 
-## ⭐ Note
+## ⭐ Current Status
 
-This project is actively being developed and updated regularly.  
-More features, improvements, and optimizations will be added over time.
+The frontend phase of this project has been completed.
+
+Future development will resume after completing backend learning,
+where full-stack functionality will be implemented.
 
