@@ -9,7 +9,7 @@ const ProductsData = {
             name: "Kurkure",
             desc: "Spicy crunchy snack",
             price: 20,
-            img: "image/kurkure.jpg"
+            img: "images/kurkure1.jpg"
         },
         {
             name: "Taka Tak",
@@ -57,6 +57,9 @@ const ProductsData = {
 };
 
 const list = document.getElementById("product-list");
+
+
+
 const products = ProductsData[category] || [];
 
 products.forEach(item => {
@@ -66,12 +69,12 @@ products.forEach(item => {
     div.innerHTML = `
     <img src="${item.img}" alt="${item.name}">
     <div class="product-info">
-    <h3>${item.name}</h3>
-    <p>${item.desc}</p>
-    <div class="product-actions">
-    <span class="price">₹${item.price}</span>
-    <button class="cart-btn">Add to Cart</button>
-    </div>
+        <h3>${item.name}</h3>
+        <p>${item.desc}</p>
+        <div class="product-actions">
+            <span class="price">₹${item.price}</span>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
     </div>
     `;
 
