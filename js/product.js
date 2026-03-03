@@ -30,7 +30,7 @@ const ProductsData = {
             name: "Rice",
             desc: "Premium quality rice",
             price: 250,
-            img: "image/rice.jpg"
+            img: "images/rice.jpg"
         },
         {
             name: "Dal",
@@ -58,3 +58,22 @@ const ProductsData = {
 
 const list = document.getElementById("product-list");
 const products = ProductsData[category] || [];
+
+products.forEach(item => {
+    const div = document.createElement("div");
+    div.className = "product-row";
+
+    div.innerHTML = `
+    <img src="${item.img}" alt="${item.name}">
+    <div class="product-info">
+    <h3>${item.name}</h3>
+    <p>${item.desc}</p>
+    <div class="product-actions">
+    <span class="price">₹${item.price}</span>
+    <button class="cart-btn">Add to Cart</button>
+    </div>
+    </div>
+    `;
+
+    list.appendChild(div);
+});
