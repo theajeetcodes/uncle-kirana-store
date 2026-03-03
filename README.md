@@ -6,8 +6,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
 
-A clean and responsive **frontend grocery store website** built using **HTML**, **CSS**, and **JavaScript**, with plans to integrate backend functionality in the future.
-This project focuses on layout, UI clarity, and scalability for future JavaScript features.
+A clean and responsive **frontend grocery store website** built using **HTML**, **CSS**, and **JavaScript**, with plans to integrate backend functionality in the future.  
+This project focuses on layout, UI clarity, dynamic rendering, and scalable frontend architecture.
 
 ---
 
@@ -15,29 +15,31 @@ This project focuses on layout, UI clarity, and scalability for future JavaScrip
 
 ![Project Preview](images/preview.png)
 
-> Current UI preview showing header, welcome section, and products.
+> Latest UI preview showing homepage and dynamic product section.
 
 ---
 
 ## 📌 About The Project
 
-**Uncle Kirana Store** is a frontend learning project that represents a local grocery store website.  
-The goal of this project is to build a **realistic, scalable UI** step by step while learning frontend fundamentals properly.
+**Uncle Kirana Store** is a structured frontend project that simulates a local grocery store website.
 
-Currently implemented:
-- Sticky header with store logo and name  
-- Store tagline below the title  
-- Welcome section with description  
-- Mobile responsive layout using media queries  
+The goal of this project is to:
 
-This project will gradually evolve into a **fully interactive store UI**.
+- Build a realistic and scalable UI
+- Practice responsive design
+- Implement dynamic rendering using JavaScript
+- Handle URL-based routing logic
+- Maintain a clean and organized folder structure
+
+This project will evolve into a **full-stack grocery store application** after backend integration.
 
 ---
 
 ## 🧱 Tech Stack
 
 - **HTML5** – Semantic structure  
-- **CSS3** – Styling and layout  
+- **CSS3** – Styling and responsive layout  
+- **JavaScript (ES6)** – Dynamic rendering & URL routing  
 - **Flexbox** – Alignment and positioning  
 - **Media Queries** – Mobile responsiveness  
 
@@ -64,25 +66,30 @@ uncle-kirana-store/
 
 ---
 
-## ✨ Features (Current)
+## ✨ Features Implemented
 
 - Sticky navigation header  
 - Logo inside circular background  
 - Store name with tagline  
-- Welcome section UI  
-- Clean color palette  
-- Responsive for small screens  
+- Responsive layout  
+- Category-based product navigation  
+- Dynamic product rendering using JavaScript  
+- URL parameter handling  
+- Clean UI structure  
 
 ---
 
-## 🔮 Planned Improvements
+## 🔮 Future Backend Improvements
 
-- Add **"My Cart" button**
-- Implement **JavaScript cart logic**
-- Item price calculation
-- Product listing section
-- Better responsive layout (tablet & mobile)
-- UI animations and interactions
+After completing backend learning, the following upgrades will be implemented:
+
+- Backend integration (Node.js / Express)  
+- Database connectivity (MongoDB or SQL)  
+- User authentication system  
+- Cart persistence with database  
+- Order management system  
+- Admin product management panel  
+- API-based product fetching  
 
 ---
 
@@ -101,7 +108,9 @@ uncle-kirana-store/
 ## 👨‍💻 Author
 
 **Ajeet Yadav**  
-Frontend Developer | Building Scalable UI Projects
+
+Frontend Developer | Building Scalable UI Projects  
+
 Focused on clean UI, responsive design, and scalable frontend architecture.
 
 ---
