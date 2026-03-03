@@ -61,9 +61,7 @@ uncle-kirana-store/
 | |-- preview.png
 | |-- balaji.jpg
 | |-- kurkure1.jpg
-| |-- etc 
 ```
-
 ---
 
 ## ✨ Features Implemented
